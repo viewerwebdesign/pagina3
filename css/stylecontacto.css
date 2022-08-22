@@ -5,6 +5,39 @@
     box-sizing: border-box;
 }
 
+/* NAV */
+nav{
+    box-shadow: 1px 1px 10px gray;
+    
+  }
+  .container-fluid{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 500;
+    background-color: rgb(255, 255, 255);
+    top: 0.2%;
+    box-shadow: 1px 1px 10px gray;
+    
+  }
+  
+  .navbar{
+    width: 10%;
+  }
+  
+  .navbar-collapse{
+    display: flex;
+    justify-content: right;
+    
+    width: 10%;
+  }
+  .navbar-brand img{
+    width: 25vh;
+    height: 8vh;
+  }
+
+
+
 /*media query*/
 
 
@@ -216,14 +249,7 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
 
-        body{
-            background: url(../assets/img/fondo-contacto.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            background-color: black;
-            
-        }
+
         form{
             display: flex;
             justify-content: center;
@@ -287,6 +313,7 @@
             box-sizing: border-box;
             height: 10%;
             margin: 5%;
+            width: 100%;
             
         }
         
@@ -320,14 +347,7 @@
 
 @media (min-width: 992px){
 
-        body{
-            background: url(../assets/img/fondo-contacto.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            background-color: black;
-            
-        }
+        
         form{
             display: flex;
             justify-content: center;
@@ -423,14 +443,7 @@
         }
 @media (min-width: 1024px){
 
-        body{
-            background: url(../assets/img/fondo-contacto.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            background-color: black;
-            
-        }
+        
         form{
             display: flex;
             justify-content: center;
@@ -494,6 +507,7 @@
             box-sizing: border-box;
             height: 10%;
             margin: 5%;
+            width: 100%;
             
         }
         
@@ -526,14 +540,7 @@
     }
     @media (min-width: 1200px){
 
-        body{
-            background: url(../assets/img/fondo-contacto.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover ;
-            background-color: black;
-            
-        }
+       
         form{
             display: flex;
             justify-content: center;
@@ -596,7 +603,8 @@
             flex-direction: column;
             box-sizing: border-box;
             height: 10%;
-            margin: 5%;
+            
+            width: 100%;
             
         }
         
