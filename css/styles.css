@@ -24,6 +24,11 @@ nav{
   box-shadow: 1px 1px 10px gray;
   
 }
+.navbar-nav  {
+--bs-nav-link-hover-color: #0d6efd;  font-family: sans-serif;}
+
+.active{
+  --bs-nav-link-hover-color: #0d6efd;}
 
 .navbar{
   width: 10%;
@@ -83,7 +88,7 @@ nav{
 .servicios{
   margin: 10%;
   text-align: center;
-  background-color: rgba(37, 35, 35, 0.644);
+  background-color: rgba(37, 35, 35, 0.742);
 }
 
 
@@ -131,6 +136,21 @@ nav{
 .section-cuatro h2{
   text-align: center;
 }
+.row-clientes{
+  text-align: center;
+}
+.row-clientes img{
+  margin-top: 4%;
+  text-align: center;
+  width: 15vw;
+  padding-bottom: 8%;
+}
+.row-clientes img:hover{
+  margin-top: 4%;
+  text-align: center;
+  width: 10vw;
+ 
+}
 
 
 /*footer*/
@@ -149,7 +169,7 @@ footer h2{
   margin: 3%;
   text-align: center;
   font-family: sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2em;
   color: white;
 }
