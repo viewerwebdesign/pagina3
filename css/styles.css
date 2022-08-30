@@ -260,7 +260,8 @@ nav{
   justify-content: left;
 }
 .navbar-brand img{
-  height: 8vh;
+  width: 30vw;
+  height: 6vh;
 }
 
 
